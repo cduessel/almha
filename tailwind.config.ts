@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        'lobster': ['Lobster Two', 'cursive'],
+        'lobster': ['Calligraffitti', 'cursive'],
         'abeezee': ['ABeeZee', 'sans-serif'],
       },
       colors: {
