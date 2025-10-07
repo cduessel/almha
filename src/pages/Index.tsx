@@ -3,7 +3,7 @@ import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import fundoImage from "@/assets/fundo.jpg";
-import betinaPhoto from "@/assets/betina.jpeg";
+import betinaPhoto from "@/assets/betina-drawing.jpg";
 
 const Index = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
