@@ -53,15 +53,15 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background font-abeezee">
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm shadow-sm z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
-            <h1 className="text-2xl font-semibold text-foreground">Almha</h1>
+            <h1 className="text-2xl font-semibold text-foreground font-lobster">Almha</h1>
             
             {/* Desktop Menu */}
-            <div className="hidden md:flex gap-8">
+            <div className="hidden md:flex gap-8 font-lobster">
               <button onClick={() => scrollToSection("home")} className="text-foreground hover:text-primary transition-colors">
                 Home
               </button>
@@ -84,7 +84,7 @@ const Index = () => {
 
           {/* Mobile Menu */}
           {isMenuOpen && (
-            <div className="md:hidden mt-4 pb-4 flex flex-col gap-4 animate-fade-in">
+            <div className="md:hidden mt-4 pb-4 flex flex-col gap-4 animate-fade-in font-lobster">
               <button onClick={() => scrollToSection("home")} className="text-foreground hover:text-primary transition-colors text-left">
                 Home
               </button>
