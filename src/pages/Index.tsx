@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import almhaLogo from "@/assets/almha.jpeg";
+import fundoImage from "@/assets/fundo.jpg";
 import betinaPhoto from "@/assets/betina.jpeg";
 
 const Index = () => {
@@ -103,21 +103,21 @@ const Index = () => {
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="pt-24 pb-16 px-4" style={{ background: "var(--gradient-hero)" }}>
-        <div className="container mx-auto text-center">
-          <div className="max-w-3xl mx-auto mb-12 animate-fade-in">
-            <img 
-              src={almhaLogo} 
-              alt="Almha - Conectando Propósito e Carreira com Equilíbrio e Autenticidade" 
-              className="mx-auto mb-8 max-w-md w-full h-auto rounded-lg"
-            />
-            <p className="text-xl text-muted-foreground mb-8">
+      <section 
+        id="home" 
+        className="pt-24 pb-16 px-4 relative min-h-[600px] flex items-center justify-center bg-cover bg-center"
+        style={{ backgroundImage: `url(${fundoImage})` }}
+      >
+        <div className="absolute inset-0 bg-black/30"></div>
+        <div className="container mx-auto text-center relative z-10">
+          <div className="max-w-3xl mx-auto animate-fade-in">
+            <h1 className="text-4xl md:text-5xl font-semibold text-white mb-8 font-lobster leading-tight">
               Conectando Propósito e Carreira com Equilíbrio e Autenticidade
-            </p>
+            </h1>
             <Button 
               size="lg" 
               onClick={() => scrollToSection("contato")}
-              className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-md"
+              className="bg-white text-primary hover:bg-white/90 shadow-lg text-lg px-8 py-6 h-auto"
             >
               Agende sua Sessão
             </Button>
