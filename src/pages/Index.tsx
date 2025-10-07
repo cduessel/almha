@@ -128,7 +128,7 @@ const Index = () => {
       {/* Testimonials */}
       <section className="py-16 px-4 bg-secondary/30">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-semibold text-center mb-12 text-foreground">Depoimentos</h2>
+          <h2 className="text-3xl font-semibold text-center mb-12 text-foreground font-lobster">Depoimentos</h2>
           <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {testimonials.map((testimonial, index) => (
               <Card key={index} className="hover:shadow-lg transition-shadow animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
@@ -154,7 +154,7 @@ const Index = () => {
               />
             </div>
             <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
-              <h2 className="text-3xl font-semibold mb-6 text-foreground">Sobre Mim</h2>
+              <h2 className="text-3xl font-semibold mb-6 text-foreground font-lobster">Sobre Mim</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
                   Olá! Sou Betina, coach e mentora dedicada a ajudar profissionais e líderes a alcançarem seu máximo potencial.
@@ -177,12 +177,12 @@ const Index = () => {
       {/* Services Section */}
       <section id="servicos" className="py-16 px-4 bg-secondary/30">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-semibold text-center mb-12 text-foreground">Serviços</h2>
+          <h2 className="text-3xl font-semibold text-center mb-12 text-foreground font-lobster">Serviços</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {services.map((service, index) => (
               <Card key={index} className="hover:shadow-lg transition-all hover:-translate-y-1 animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold mb-3 text-foreground">{service.title}</h3>
+                  <h3 className="text-xl font-semibold mb-3 text-foreground font-lobster">{service.title}</h3>
                   <p className="text-muted-foreground">{service.description}</p>
                 </CardContent>
               </Card>
@@ -194,11 +194,11 @@ const Index = () => {
       {/* Contact Section */}
       <section id="contato" className="py-16 px-4">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-3xl font-semibold text-center mb-12 text-foreground">Contato</h2>
+          <h2 className="text-3xl font-semibold text-center mb-12 text-foreground font-lobster">Contato</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <Card className="animate-fade-in">
               <CardContent className="p-8">
-                <h3 className="text-xl font-semibold mb-4 text-foreground">Entre em Contato</h3>
+                <h3 className="text-xl font-semibold mb-4 text-foreground font-lobster">Entre em Contato</h3>
                 <div className="space-y-4">
                   <div>
                     <p className="text-sm text-muted-foreground mb-2">WhatsApp / Telefone</p>
@@ -232,7 +232,7 @@ const Index = () => {
 
             <Card className="animate-fade-in" style={{ animationDelay: "0.1s" }}>
               <CardContent className="p-8">
-                <h3 className="text-xl font-semibold mb-4 text-foreground">Sessões Presenciais</h3>
+                <h3 className="text-xl font-semibold mb-4 text-foreground font-lobster">Sessões Presenciais</h3>
                 <div>
                   <p className="text-sm text-muted-foreground mb-2">Endereço</p>
                   <p className="text-foreground font-semibold mb-1">Casa Eterea</p>
