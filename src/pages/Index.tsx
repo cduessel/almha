@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import fundoImage from "@/assets/fundo.jpg";
 import betinaPhoto from "@/assets/betina-drawing.jpg";
-import almhaLogo from "@/assets/almha-logo.png";
 
 const Index = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -59,10 +58,7 @@ const Index = () => {
       <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm shadow-sm z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
-            <div className="flex items-center gap-3">
-              <img src={almhaLogo} alt="Almha Logo" className="h-10 w-10 rounded-full" />
-              <h1 className="text-2xl font-semibold text-foreground font-lobster">Almha</h1>
-            </div>
+            <h1 className="text-2xl font-semibold text-foreground font-lobster">Almha</h1>
             
             {/* Desktop Menu */}
             <div className="hidden md:flex gap-8 font-lobster">
