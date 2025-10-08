@@ -157,16 +157,13 @@ const Index = () => {
               <h2 className="text-3xl font-semibold mb-6 text-foreground font-lobster">Sobre Mim</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Olá! Sou Betina, coach e mentora dedicada a ajudar profissionais e líderes a alcançarem seu máximo potencial.
+                  Acredito que o verdadeiro sucesso profissional não se resume apenas ao conhecimento técnico. Ele nasce da harmonia entre corpo, mente e espírito, criando um caminho de realização autêntica e profunda. Como facilitadora, acompanho profissionais em jornadas de transformação, integrando a espiritualidade e a carreira para alinhar propósito e talento.
                 </p>
                 <p>
-                  Com anos de experiência em desenvolvimento de carreira e coaching executivo, minha missão é conectar propósito e carreira, promovendo equilíbrio e autenticidade em cada jornada.
-                </p>
-                <p>
-                  Acredito que cada pessoa tem um potencial único a ser descoberto e desenvolvido. Meu trabalho é guiá-lo nessa descoberta, oferecendo ferramentas práticas e suporte personalizado para transformar seus objetivos em realidade.
+                  Minha abordagem é holística e intuitiva, combinando minha experiência como headhunter com práticas de alinhamento energético, mindfulness e meditação. Utilizo também os ensinamentos da Antroposofia e Jung para desbloquear potenciais, explorar arquétipos e padrões de alma, e traçar caminhos personalizados que devolvem o protagonismo às pessoas em suas vidas e carreiras.
                 </p>
                 <p className="font-semibold text-foreground">
-                  Vamos juntos trilhar o caminho do seu sucesso profissional e pessoal!
+                  Se você está em um momento de transição ou busca maior clareza e direção, convido você a embarcar nessa jornada transformadora. Juntos, podemos criar uma carreira que não apenas reflete seu potencial, mas também resgata sua essência.
                 </p>
               </div>
             </div>
